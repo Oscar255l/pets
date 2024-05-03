@@ -2,7 +2,7 @@
 include('../../config/database.php');
 
 $email = $_POST['email'];
-$pass = $_POST['passwd'];
+$passwd = $_POST['passwd'];
 $enc_pass = md5($passwd);
 
 $sql = "
