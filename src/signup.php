@@ -17,7 +17,7 @@
             <tr><td><input type="email" name="email" placeholder="Email" required></td></tr>
             <tr><td><input type="password" name="passwd" placeholder="*********" required></td></tr><br>
             <tr><td align="center"><button>Register</button></td></tr>
-            <a href="signin.html">Enter a account</a>
+            <a href="signin.php">Enter a account</a>
         </table>
     </form>
 </body>
