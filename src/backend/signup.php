@@ -21,7 +21,7 @@ if($total > 0){
   $ans = pg_query($conn, $sql);
   if($ans){
     echo "<script>alert('user has been registered')</script>)";
-    header("refresh:0;url../signin.php");
+    header("refresh:0;url=../signin.php");
   }else{
     echo "Error: " . pg_last_error();
   }
